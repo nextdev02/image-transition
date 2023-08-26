@@ -12,6 +12,15 @@
       transition: 1s ease;
     }
 
+    h3{
+      padding: 20px;
+      font-size: 3vw; 
+      max-width: 80%;
+      font-weight: 700;
+      color: rgba(192, 255, 104, 0.701);
+      transition: 1s ease;
+    }
+
     h1:hover{
         color: rgb(226, 226, 226);
         cursor: default;

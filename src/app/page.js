@@ -6,7 +6,9 @@ import Double from '../components/double';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Hello There, This is a Next JS Image Taransition Project. This effect is cool for showcase Your Projet Showcase</h1>
+      <h1>Hello!</h1> <br/>
+      
+      <h3> This Image Transition effect is cool for showcase Your Projects. </h3>
       <div className={styles.gallery}>
         <Double projects={[projects[0], projects[1]]}/>
         <Double projects={[projects[2], projects[3]]} reversed={true}/>
